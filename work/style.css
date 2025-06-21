@@ -1,0 +1,47 @@
+body {
+  
+  background:url("/images/bg1.jpg");
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #021323;
+}
+
+
+
+label {
+  width: 150px;
+  height:100px;
+  font-weight: bolder;
+  text-align: right;
+  margin-right: 10px;
+}
+
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #0074d9;
+  color: white;
+  border: none;
+  border-radius: 100px;
+  cursor: pointe;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+form {
+  background-color: rgba(255, 255, 255, 0.85); /* semi-transparent white */
+  padding: 40px;
+  border-radius: 15px;
+  width: fit-content;
+  margin: auto;
+  display: inline-block;
+}
