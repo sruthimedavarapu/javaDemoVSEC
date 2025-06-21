@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >Days in a week</h1>
+    <h2>sunday</h2>
+    <h2>monday</h2>
+    <h2>tuesday</h2>
+    <h2>wednesday<h2/li>
+    <h2>thursday</h2>
+    <h2>friday</h2>
+    <h2>saturday</h2>
+    <button onclick="clearitems">clear</button>
+    <script>
+    function clearitems(){
+        var x=document.getElementsByClassName("days");
+        for(var i=0;i<x.length;i++ ){
+           x[i].style.display="none";
+
+        }
+    }
+    </script>
+</body>
+</html>
